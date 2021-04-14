@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Word Guess Game</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="log-container">
+            <div id="log">
+                <h3>guess log</h3>
+                <div id="log-output"></div>
+            </div>
+        </div>
+        <div class="main-container">
+            <h1>Word Guess Game</h1>
+    
+            <div id="scrambled-word"></div>
+            <div class="input-holder">
+                <input id="guess-input" value="" placeholder="enter guess" tabindex="1">
+                <input id="check-guess-btn" type="button" value="Check Guess" tabindex="2">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
